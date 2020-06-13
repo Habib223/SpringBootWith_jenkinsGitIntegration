@@ -15,6 +15,7 @@ public class SpringBootWithJenkinsGitIntegrationApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("Application start......");
+		logger.debug("Debugging msg here");
 	}
 	
 	public static void main(String[] args) {
